@@ -1,9 +1,14 @@
-// GLOBALS - NO WINDOW !!!!!
+// CommonJS, every file in Node is a module (by default)
+// Modules - encapsulated code (only share the minimum, share only what we want)
 
-// __dirname  - path to current directory
-// __filename - file name
-// require    - function to use modules (CommonJS)
-// module     - info about current module (file)
-// process    - info about env where the program is being executed
+const { john, peter } = require("./4-firstModule")
+const sayHi = require("./5-secondModule")
 
-console.log(process)
+const alternatives = require("./6-alternativeFlavor")
+// console.log(alternatives)
+
+// require("./7-mindGranade")
+
+sayHi('Susan')
+sayHi(john)
+sayHi(peter)
