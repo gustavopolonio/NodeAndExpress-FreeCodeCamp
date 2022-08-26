@@ -1,0 +1,27 @@
+{
+  "name": "nodeandexpress-freecodecamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-intro.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavopolonio/NodeAndExpress-FreeCodeCamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavopolonio/NodeAndExpress-FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/gustavopolonio/NodeAndExpress-FreeCodeCamp#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
